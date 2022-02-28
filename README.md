@@ -1,3 +1,5 @@
+// TODO - 알고리즘 유형 별로 폴더 정리 및 README 수정
+
 # Algorithm
 
 ## 1. [Codeup](https://github.com/kdkdhoho/Algorithm/tree/main/Codeup)
