@@ -2,12 +2,12 @@
 
 ## 1. [구현](https://github.com/kdkdhoho/Algorithm/tree/main/구현)
 
-- 문자열
+- [문자열](https://github.com/kdkdhoho/Algorithm/tree/main/구현/문자열)
   - 1157 단어 공부
   - 신규아이디
   - 9093 단어뒤집기
   - 가장 큰 수
-- 수학
+- [수학](https://github.com/kdkdhoho/Algorithm/tree/main/구현/문자열)
   - 10951 A + B - 4
   - 15552 빠른 A+B
   - 소수만들기
@@ -17,10 +17,10 @@
 
 ## 2. [그래프 탐색](https://github.com/kdkdhoho/Algorithm/tree/main/그래프-탐색)
 
-- BFS
+- [BFS](https://github.com/kdkdhoho/Algorithm/tree/main/그래프-탐색/BFS)
   - 1697 숨바꼭질
   - Basic_BFS
-- DFS
+- [DFS](https://github.com/kdkdhoho/Algorithm/tree/main/그래프-탐색/DFS)
   - 2606 바이러스
   - 네트워크
   - 타겟 넘버
@@ -43,13 +43,13 @@
 
 ## 7. [자료구조](https://github.com/kdkdhoho/Algorithm/tree/main/자료구조)
 
-- 스택
+- [스택](https://github.com/kdkdhoho/Algorithm/tree/main/자료구조/스택)
   - 9012 괄호
   - 프린터
-- 큐
+- [큐](https://github.com/kdkdhoho/Algorithm/tree/main/자료구조/큐)
   - 1158 요세푸스
   - 다리를 지나는 트럭
-- 해시
+- [해시](https://github.com/kdkdhoho/Algorithm/tree/main/자료구조/해시)
   - 베스트앨범
   - 완주하지 못한 선수
   - 위장
