@@ -9,30 +9,30 @@ public class QuickSort {
   }
 
   static void quickSort(int left, int right) {
-    int pivot = left;
-    int l = left + 1;
-    int r = right;
+		int pivot = left;
+		int l = left + 1;
+		int r = right;
 
-    if (l < r) {
-      while (true) {
-        while (l <= right && A[l] < A[pivot])
-          l++;
+		if (l <= r) {
+			while (true) {
+				while (l <= right && A[l] < A[pivot])
+					l++;
 
-        while (r >= left && A[r] > A[pivot])
-          r--;
+				while (r >= left && A[r] > A[pivot])
+					r--;
 
-        if (l < r)
-          swap(l, r);
-        else {
-          swap(pivot, r);
-          break;
-        }
-      }
-
-      quickSort(left, r - 1);
-      quickSort(r + 1, right);
-    }
-  }
+				if (l < r)
+					swap(l, r);
+				else {
+					swap(pivot, r);
+					break;
+				}
+			}
+			
+			quickSort(left, r - 1);
+			quickSort(r + 1, right);
+		}
+	}
 
   static void swap(int a, int b) {
     int tmp = A[a];
