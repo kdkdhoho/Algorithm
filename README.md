@@ -1,5 +1,3 @@
-2022.03.14. 필요성을 크게 못느껴서 당분간 업로드는 멈추고 문제풀기에 집중!
-
 # Algorithm
 
 ## 1. [구현](https://github.com/kdkdhoho/Algorithm/tree/main/구현)
