@@ -55,7 +55,7 @@ public class Main {
 
 		int n = Integer.parseInt(st.nextToken());
 		int k = Integer.parseInt(st.nextToken());
-		
+
 		int result = bfs(n, k);
 		System.out.println(result);
 	}
