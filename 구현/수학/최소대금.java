@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Main {
+public class 최소대금 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
