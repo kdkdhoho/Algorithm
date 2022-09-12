@@ -1,4 +1,4 @@
-// https://www.codetree.ai/missions/5/problems/place-more-than-3-ones/submissions
+// 출처: https://www.codetree.ai/missions/5/problems/place-more-than-3-ones/submissions
 
 import java.util.*;
 import java.io.*;
