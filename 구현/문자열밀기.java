@@ -1,15 +1,11 @@
-import java.util.*;
-
 class Solution {
     public int solution(String A, String B) {
         int count = 0;
         while (!A.equals(B)) {
-            if (count >= 10_000_000) {
+            if (count > 100) {
                 return -1;
             }
-
             count++;
-
             A = process(A);
         }
 
@@ -17,16 +13,10 @@ class Solution {
     }
 
     private String process(String input) {
-        Queue<Character> queue = new LinkedList<>();
-        for (int i = input.length() - 1; i >= 0; i--) {
-            queue.add(input.charAt(i));
-        }
-        queue.add(queue.poll());
-
-        StringBuilder sb = new StringBuilder();
-        while (!queue.isEmpty()) {
-            sb.append(queue.poll());
-        }
-        return sb.reverse().toString();
+        StringBuilder sb = new StringBuilder(input);
+        char lastChar = sb.charAt(input.length() - 1);
+        sb.deleteCharAt(sb.length() - 1);
+        sb.insert(0, lastChar);
+        return sb.toString();
     }
 }
