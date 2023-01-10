@@ -1,10 +1,8 @@
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
-    public int solution(int[] array, int height) {
-        long answer = Arrays.stream(array)
-                .filter(num -> num > height)
-                .count();
-        return (int)answer;
+    public String solution(String my_string) {
+        return new StringBuilder(my_string).reverse().toString();
     }
 }
