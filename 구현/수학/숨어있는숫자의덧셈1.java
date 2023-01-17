@@ -5,7 +5,7 @@ class Solution {
         char[] words = my_string.toCharArray();
         for (char word : words) {
             if (Character.isDigit(word)) {
-                answer += word - '0';
+                answer += Character.getNumericValue(word);
             }
         }
         return answer;
